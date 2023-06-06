@@ -3,6 +3,8 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import "./index.css";
 
+// majority of app based on https://github.com/mdn/todo-react tutorial and code.
+
 const DATA = JSON.parse(localStorage.getItem("tasks") || "[]");
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
