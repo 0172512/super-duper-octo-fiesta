@@ -31,7 +31,6 @@ button {
   line-height: normal;
   -webkit-font-smoothing: inherit;
   -moz-osx-font-smoothing: inherit;
-  -webkit-appearance: none;
 }
 button::-moz-focus-inner {
   border: 0;
@@ -58,7 +57,8 @@ body {
   max-width: 68rem;
   margin: 0 auto;
   font: 1.6rem/1.25 Arial, sans-serif;
-  background-color: #f5f5f5;
+  border-radius: 30px;
+  background-color: #333333;
   color: #4d4d4d;
 }
 @media screen and (min-width: 620px) {
@@ -78,26 +78,30 @@ body {
   border: 0.2rem solid #4d4d4d;
   cursor: pointer;
   text-transform: capitalize;
+  border-radius: 30px;
 }
 .btn.toggle-btn {
   border-width: 1px;
   border-color: #d3d3d3;
+  border-radius: 30px;
 }
 .btn.toggle-btn[aria-pressed="true"] {
   text-decoration: underline;
   border-color: #4d4d4d;
+  border-radius: 30px;
 }
 .btn__danger {
   color: #fff;
-  background-color: #ca3c3c;
-  border-color: #bd2130;
+  background-color: #3c2348;
+  border-color: #c6907b;
+  border-radius: 30px;
 }
 .btn__filter {
   border-color: lightgrey;
 }
 .btn__primary {
-  color: #fff;
-  background-color: #000;
+  color: #1c1122;
+  background-color: #ede3f2;
 }
 .btn-group {
   display: flex;
@@ -146,7 +150,7 @@ body {
 }
 /* END GLOBAL STYLES */
 .todoapp {
-  background: #fff;
+  background: #ede3f2;
   margin: 2rem 0 4rem 0;
   padding: 1rem;
   position: relative;
@@ -161,6 +165,7 @@ body {
   max-width: 50rem;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 30px;
 }
 .todoapp > form {
   max-width: 100%;
