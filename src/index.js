@@ -4,6 +4,7 @@ import App from "./App";
 import "./index.css";
 
 // majority of app based on https://github.com/mdn/todo-react tutorial and code.
+//ooooh im documenting
 
 const DATA = JSON.parse(localStorage.getItem("tasks") || "[]");
 
